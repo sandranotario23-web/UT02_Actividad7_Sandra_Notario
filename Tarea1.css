@@ -1,0 +1,28 @@
+body{
+    height: 60vh;
+    align-content: center;
+}
+
+.item{
+    background-color: #0000ff;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    align-content: center;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25vw;
+    height: 20vh;
+    margin: auto;
+}
+
+.item:active{
+    visibility: hidden;
+}
